@@ -3,22 +3,17 @@
 import Cube from "@/components/elements/Cube.vue";
 import Card from "@/components/cards/Card.vue";
 import Contributor from "@/components/cards/Contributor.vue";
+import Main from "@/components/main/Main.vue";
+import Handbook from "@/components/handbook/Handbook.vue";
 </script>
 
 <template>
-<div class="cubes">
-  <Cube>1</Cube>
-  <Cube>2</Cube>
-  <Cube>3</Cube>
-</div>
+  <Handbook/>
+  <Main/>
   <Card></Card>
   <Contributor/>
 </template>
 
 <style scoped>
-.cubes{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 </style>

@@ -21,10 +21,12 @@ function dataLog(){
         mode="horizontal"
         :ellipsis="false"
     >
-      <div class="flex-glow"></div>
+
       <el-menu-item index="1">首页</el-menu-item>
-      <el-menu-item index="2">市场</el-menu-item>
-      <el-menu-item index="3">吃谷</el-menu-item>
+      <div class="flex-glow"></div>
+      <el-menu-item index="2">图鉴</el-menu-item>
+      <el-menu-item index="3">市场</el-menu-item>
+      <el-menu-item index="4">吃谷</el-menu-item>
     </el-menu>
   </div>
 

@@ -56,13 +56,14 @@ const activeIndex = ref('details')
     <UserWant/>
     </el-card>
   </div>
-
-  <el-button @click="check">检查</el-button>
 </template>
 
 <style scoped>
 .el-menu{
   max-height: 40px;
+}
+.el-card{
+  margin: 8px 0;
 }
 .inner-img {
   margin: auto;
