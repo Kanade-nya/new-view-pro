@@ -8,3 +8,7 @@ body button{
     font-family: "Noto Serif SC", serif;
     font-weight: normal;
 }
+input::-webkit-input-placeholder,input:-moz-placeholder,input::-moz-placeholder,input:-ms-input-placeholder{
+    font-family: "Noto Serif SC", serif !important;
+    font-weight: normal;
+}
