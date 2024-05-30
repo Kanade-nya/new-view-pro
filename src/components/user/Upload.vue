@@ -10,7 +10,8 @@ const form = reactive({
   character: '',
   type: '',
   productionDate: '',
-  series: ''
+  series: '',
+  size: ''
 })
 
 const disabledDate = (time) => {
@@ -86,6 +87,11 @@ onMounted(() =>{
               :trigger-on-focus="false"
           />
         </el-form-item>
+        <el-form-item label="尺寸" style="width: 35%">
+          <el-autocomplete
+              v-model="form.size"
+          />
+        </el-form-item>
         <div style="margin: 4px auto; font-size: 14px;font-weight: bolder">
           <el-text style="cursor: default">更多细节</el-text>
         </div>
@@ -103,6 +109,8 @@ onMounted(() =>{
           />
         </el-form-item>
         <UpImg/>
+
+          <el-button style="margin: 16px 0">上传资料</el-button>
       </el-form>
     </el-card>
   </div>

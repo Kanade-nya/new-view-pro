@@ -6,11 +6,13 @@ import Body from "@/components/frameworks/Body.vue";
 </script>
 
 <template>
-  <div>
-    <Header/>
-    <Body>body</Body>
-    <Footer>footer</Footer>
-  </div>
+  <router-link to="/"/>
+  <router-view/>
+<!--  <div>-->
+<!--    <Header/>-->
+<!--    <Body>body</Body>-->
+<!--    <Footer>footer</Footer>-->
+<!--  </div>-->
 </template>
 
 <style scoped>

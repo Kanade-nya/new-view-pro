@@ -1,9 +1,18 @@
 <script setup>
 
 import {ArrowRight} from "@element-plus/icons-vue";
+// import router from "@/router.js";
+import {useRoute,useRouter} from "vue-router";
+const router = useRouter();
+const route = useRoute();
+
+const changeRoute = ()=>{
+  router.push("/test")
+}
 </script>
 
 <template>
+  <el-button @click="changeRoute">点击</el-button>
   <div class="main">
     <el-main>
 

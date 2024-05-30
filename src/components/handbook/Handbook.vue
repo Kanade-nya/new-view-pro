@@ -30,11 +30,10 @@ function loadSearch(){
           <el-row style="width: 60%">
             <el-col :span="16"> <el-input v-model="input"  placeholder="Please input"/></el-col>
 <!--            <el-col :span="1"/>-->
-            <el-col :span="2" style="margin-left: 4px;width: 120px"> <el-input v-model="style"  placeholder="种类" /></el-col>
+            <el-col :span="3" style="margin-left: 4px;width: 120px"> <el-input v-model="style"  placeholder="种类" /></el-col>
 <!--            <el-col :span="1"/>-->
             <el-col :span="4" style="margin-left: 4px"><el-button @click="loadSearch">搜索</el-button></el-col>
           </el-row>
-
 
         </div>
         <Character/>
